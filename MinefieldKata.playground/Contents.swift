@@ -2,7 +2,6 @@
 
 import UIKit
 
-var str = "Hello, playground"
 
 /*
  https://github.com/garora/TDD-Katas#mine-fields-
