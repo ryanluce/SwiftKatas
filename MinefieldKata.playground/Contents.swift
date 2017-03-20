@@ -65,11 +65,7 @@ func isMine(input:String)->Bool {
 }
 
 func clamp(value:Int, low:Int = 0, high:Int)->Int {
-    
-    if value > high { return high }
-    else if value < low { return low }
-    
-    return value
+    return min(max(value, low), high)
 }
 
 
